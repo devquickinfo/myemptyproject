@@ -107,10 +107,7 @@
       };
       document.addEventListener('DOMContentLoaded', function () {
         const sidebarWrapper = document.querySelector(SELECTOR_SIDEBAR_WRAPPER);
-
-        // Disable OverlayScrollbars on mobile devices to prevent touch interference
         const isMobile = window.innerWidth <= 992;
-
         if (
           sidebarWrapper &&
           OverlayScrollbarsGlobal?.OverlayScrollbars !== undefined &&
